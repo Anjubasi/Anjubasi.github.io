@@ -1,0 +1,831 @@
+@media (max-width: 1280px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      .logo {
+        padding-left: 10px;
+      }
+      .navigation {
+        nav  {
+          width: 400px;
+          ul {
+             li {
+              a {
+                font-size: 15px;
+              }
+             }
+          }
+            
+        }
+      }
+      .phoneNumber {
+        padding: 0px;
+      }
+   }
+  }
+
+  @media (max-width: 1280px) {
+    .header {
+    nav {
+      display: none;
+    }
+    .phoneNumber {
+      display: none;
+      i {
+        display: none;
+      }
+      a {
+        display: none;
+      }
+    }
+  }
+}
+
+
+  
+  @media (max-width: 1280px) {
+    .section1 {
+      .section-1 {
+        background-position: right;
+        .section-1-text {
+          .txt1 {
+            p {
+              font-size: 20px;
+            }
+          }
+          .txt2 {
+            p {
+              font-size: 55px;
+            }
+          }
+          button {
+            width: 250px;
+            height: 70px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+
+  @media (max-width: 720px) {
+    .section1 {
+      .section-1 {
+        .section-1-text {
+          margin-left: 42px;
+          .txt1 {
+            p {
+              font-size: 13px;
+            }
+          }
+          .txt2 {
+            p {
+              font-size: 35px;
+            }
+          }
+          button {
+            width: 200px;
+            height: 50px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+
+  @media (max-width: 480px) {
+    .section1 {
+      .section-1 {
+        .section-1-text {
+          margin-left: 50px;
+          .txt1 {
+            p {
+              font-size: 10px;
+            }
+          }
+          .txt2 {
+            p {
+              font-size: 28px;
+            }
+          }
+          button {
+            width: 180px;
+            height: 40px;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+
+
+  }
+
+
+
+
+  @media (max-width: 720px) {
+    .section1 {
+      .social {
+        top: 95%;
+        .socialLogos {
+          background-color: white;
+          display: flex;
+          justify-content: center;
+          height: 35px;
+          width: 25px;
+          padding-top: 15px;
+          border-bottom: 2px solid var(--color1);
+           i {
+            font-size: 15px;
+           }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 360px) {
+    .section1 {
+      .social {
+        top: 100%;
+        .socialLogos {
+          background-color: white;
+          display: flex;
+          justify-content: center;
+          height: 30px;
+          width: 20px;
+          padding-top: 15px;
+          border-bottom: 2px solid var(--color1);
+           i {
+            font-size: 10px;
+           }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1430px) {
+    .section2 {
+      .cards {
+        .card-3 {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 950px) {
+    .section2 {
+      .cards {
+        .card-1 {
+          width: 376px;
+          height: 183px;  
+           p {        
+              font-size: 20px;      
+           }
+           .smallp {
+            font-size: 10px;
+          }
+          button {
+            width: 100px;
+            height: 27px;
+            font-size: 10px;
+          }
+        }
+        .card-2 {
+          width: 376px;
+          height: 183px;  
+           p {        
+              font-size: 20px;      
+           }
+           .smallp {
+            font-size: 10px;
+          }
+          button {
+            width: 100px;
+            height: 27px;
+            font-size: 10px;
+          }
+        }
+        .card-3 {
+          width: 376px;
+          height: 183px;  
+           p {        
+              font-size: 20px;      
+           }
+           .smallp {
+            font-size: 10px;
+          }
+          button {
+            width: 100px;
+            height: 27px;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 750px) {
+    .section2 {
+      .cards {
+        .card-1 {
+          
+          width: 276px;
+          height: 120px;  
+           p {        
+              font-size: 15px;      
+           }
+           .smallp {
+            font-size: 7px;
+          }
+          button {
+            width: 70px;
+            height: 27px;
+            font-size: 7px;
+          }
+        }
+        .card-2 {
+          width: 276px;
+          height: 120px;  
+           p {        
+              font-size: 15px;      
+           }
+           .smallp {
+            font-size: 7px;
+          }
+          button {
+            width: 70px;
+            height: 27px;
+            font-size: 7px;
+          }
+        }
+        .card-3 {
+          width: 276px;
+          height: 120px;   
+           p {        
+              font-size: 15px;      
+           }
+           .smallp {
+            font-size: 7px;
+          }
+          button {
+            width: 70px;
+            height: 27px;
+            font-size: 7px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 550px) {
+    .section2 {
+      .cards {
+        .card-1 {        
+          width: 210px;
+          height: 120px;  
+           p {        
+              font-size: 15px;      
+           }
+           .smallp {
+            font-size: 7px;
+          }
+          button {
+            width: 50px;
+            height: 27px;
+            font-size: 7px;
+          }
+        }
+        .card-2 {
+          width: 210px;
+          height: 120px;  
+           p {        
+              font-size: 15px;      
+           }
+           .smallp {
+            font-size: 7px;
+          }
+          button {
+            width: 50px;
+            height: 27px;
+            font-size: 7px;
+          }
+        }
+        .card-3 {
+          width: 210px;
+          height: 120px;   
+           p {        
+              font-size: 15px;      
+           }
+           .smallp {
+            font-size: 7px;
+          }
+          button {
+            width: 50px;
+            height: 27px;
+            font-size: 7px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 416px) {
+    .section2 {
+      .cards {
+        .card-2 {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+
+  @media (max-width: 1430px) {
+    .section3-img1 {
+      img {
+        display: none;
+      }
+    }
+    .section3-img2 {
+      img {
+        display: none;
+      }
+    }
+  }
+
+
+
+  @media (max-width: 1420px) {
+    .section3 {
+      .aboutus {
+        margin-left: 250px;
+      }
+    }
+  }
+
+
+
+  @media (max-width: 960px) {
+    .section3 {
+      margin-top: 0px;
+      .aboutus {
+        margin-left: 150px;
+          .p-aboutus {           
+              font-size: 9px;           
+          }
+          h6 {
+            font-size: 35px;
+            margin-bottom: 20px;
+          }
+          .slogan {
+            font-size: 20px;
+          }
+         .div-sloganexplane {
+            .sloganexplane {
+              font-size: 20px;
+            }
+         }
+      }
+    }
+  }
+
+  @media (max-width: 420px) {
+    .section3 {
+      margin-top: 100px;
+    }
+  }
+
+
+  @media (max-width: 1280px) {
+      
+    .sec4-card-4,
+    .sec4-card-5,
+    .sec4-card-6 {
+      display: none;
+    }
+  }
+
+
+  @media (max-width: 1280px) {
+    .section4 {
+      height: 100%;
+      .our-clasess {
+      
+        h6 {
+          font-size: 40px;
+        }
+        p {     
+          font-size: 20px;    
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1280px) {
+    .section4 {
+      .class-types {
+        .types-collection1 {
+          gap: 20px;
+          flex-wrap: wrap;
+          .sec4-card-1 {
+            width: 446px;
+            height: 299px;
+             p {
+              font-size: 35px;
+              padding-bottom: 10px;
+              padding-top: 10px;
+             }
+          }
+          .sec4-card-2 {
+            width: 446px;
+            height: 299px;
+              .Advanced-Gymnastic {
+                margin: 50px auto;
+                width: 300px;
+                height: 200px;
+                  .card2-p1  {
+                    font-size: 25px;
+                    margin-bottom: 5px;
+                  }
+                  p {
+                    font-size: 10px;
+                  }
+                  button {
+                    width: 123px;
+                    font-size: 8px;
+                  }
+              }
+          }
+          .sec4-card-3 {
+            width: 446px;
+            height: 299px;
+             p {
+              font-size: 35px;
+              padding-bottom: 10px;
+              padding-top: 10px;
+             }
+          }
+        }
+    }
+  }
+}
+
+@media (max-width: 805px) {
+  .section4 {
+    height: 100%;
+    .our-clasess {
+    
+      h6 {
+        font-size: 30px;
+      }
+      p {     
+        font-size: 15px;    
+        line-height: 25px;
+      }
+    }
+  }
+}
+@media (max-width: 605px) {
+  .section4 {
+    height: 100%;
+    .our-clasess {
+    
+      h6 {
+        font-size: 20px;
+      }
+      p {     
+        font-size: 10px;    
+      }
+    }
+  }
+}
+
+@media (max-width: 405px) {
+  .section4 {
+    height: 100%;
+    .our-clasess {
+    
+      h6 {
+        font-size: 17px;
+      }
+      p {     
+        font-size: 10px;    
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .section4 {
+    .class-types {
+      .types-collection1 {
+        .sec4-card-1 {
+          width: 280px;
+          height: 199px;
+          background-position: top;
+           p {
+            font-size: 25px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+           }
+        }
+        .sec4-card-2 {
+          width: 280px;
+          height: 199px;
+            .Advanced-Gymnastic {
+              margin: 50px auto;
+              width: 250px;
+              height: 150px;
+              margin: 30px auto;
+                .card2-p1  {
+                  font-size: 15px;
+                  margin-bottom: 5px;
+                }
+                p {
+                  font-size: 7px;
+                  line-height: 20px;
+                }
+                button {
+                  width: 123px;
+                  font-size: 8px;
+                  
+                }
+            }
+        }
+        .sec4-card-3 {
+          width: 280px;
+          height: 199px;
+          background-position: top;
+           p {
+            font-size: 25px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+           }
+        }
+      }
+  }
+}
+}
+
+
+
+@media (max-width: 850px) {
+  .section5 {
+    .meet-our-team {
+        .team-p {
+          font-size: 40px;       
+        }
+        .team-p2 {         
+          font-size: 15px;        
+          line-height: 32px;
+        }
+    }
+  }
+}
+
+@media (max-width: 505px) {
+  .section5 {
+    .meet-our-team {
+        .team-p {
+          font-size: 30px;   
+          margin-bottom: 20px;   
+        }
+        .team-p2 {         
+          font-size: 15px;        
+          line-height: 32px;
+        }
+    }
+  }
+}
+
+@media (max-width: 505px) {
+  .section5 {
+    .sec5-cards {
+      .sec5-card1 {
+        height: 400px;
+          img {
+            width: 280px;
+          }
+          .name {
+            .name1 {
+              font-size: 20px;           
+              margin-top: 10px;     
+            }
+            p {
+              font-size: 10px; 
+            }
+          }  
+      }
+    }
+  }
+}
+
+@media (max-width: 505px) {
+  .section5 {
+    .b-seeteam {
+      .seeteam {
+        width: 283px;
+        font-size: 17px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 505px) {
+  .section6 {
+  .sec6-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 30px;
+      .sec6-card1 {
+        width: 230px;
+        background-color: #13191A;
+        padding: 25px;
+
+        img {
+          width: 190px;
+          object-fit: cover;
+        }
+
+          .info-card {
+            margin-top: 25px;
+            p {
+              font-size: 10px;             
+            }
+          }
+          .info-card2 {
+            margin-top: 20px;
+            p {
+            line-break: anywhere;
+            line-height: 24px;
+            font-size: 10px;
+            color: var(--color3);
+            }
+          }
+
+        .long-name {
+          display: flex;
+          margin-top: 20px;
+           p {
+            color: var(--color3);
+            font-size: 10px;
+            padding-left: 5px;
+           }
+        }
+      }
+  }
+}
+}
+
+@media (max-width: 505px) {
+  .recent-news {
+   
+   text-align: center;
+    
+  }
+}
+
+@media (max-width: 505px) {
+  .b-news {
+    .seenew {
+      width: 200px;
+      height: 50px;
+      font-size: 10px;
+    }
+  }
+}
+
+@media (max-width: 1600px) {
+  .section7 {
+    .sec7imgimg {
+      display: none;
+        .sec8-img {
+          display: none;
+        }
+    }
+  }
+}
+@media (max-width: 1600px) {
+  .section7 {
+    justify-content: center;
+    .contact-us  {
+      margin: 0px;
+    }
+  }
+}
+@media (max-width: 720px) {
+  .section7 {
+    height: 100%;
+    .contact-us {
+      .contact-input {
+        input {
+          width: 361px;
+          height: 63px;
+        }
+        textarea {
+          width: 361px;
+        }
+        button {
+          width: 361px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .section7 {
+    height: 100%;
+    .contact-us {
+      .p-contactus {
+        font-size: 25px;
+      }
+      .contact-input {
+        input {
+          width: 231px;
+          height: 63px;
+          font-size: 10px;
+        }
+        textarea {
+          width: 231px;
+          font-size: 10px;
+        }
+        button {
+          width: 231px;
+          font-size: 10px;
+        }
+      }
+      .contact-info {
+        p {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .section8 {
+    flex-direction: column;
+    column-gap: 200px;
+     .img-logo2 {
+      img {
+        display: none;
+      }
+     }
+      .quick-contact {
+        h5 {
+          text-align: center;
+        }
+
+        .p12 {
+          padding-left: 30px;
+        }
+       
+      }
+      .icon-logo {
+        padding-left: 50px;
+      }
+     .buttons {
+      p {
+        text-align: center;
+      }
+      .active-buttons {
+        .button12 {
+          font-size: 10px;
+          width: 80px;
+          height: 40px;
+        }
+      }
+     }
+  }
+}
+
+@media (max-width: 720px)  {
+  footer {
+    display: none;
+  }
+}
+
+@media (max-width: 1280px) {
+ .header {
+  .burger-icon{
+    color: black;
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    cursor:pointer;
+  }
+ }
+}
